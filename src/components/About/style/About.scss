@@ -1,0 +1,57 @@
+.about__container {
+    min-height: 100vh;
+    margin-bottom: 15rem;
+}
+
+.about__content {
+    display: flex;
+}
+
+.profile__picture__container {
+    display: flex;
+}
+
+.profile__picture {
+    min-width: 20rem;
+    min-height: 20rem;
+    border: 4px solid white;
+
+    background-size: 100% 100%;
+    background-color: rgba(0, 0, 0, .75);
+    background-blend-mode: multiply;
+    transition: all 0.3s ease-in-out;
+
+    flex: 25%;
+
+    &:hover {
+        transition: all 0.3s ease-in-out;
+        background-color: rgba(0, 0, 0, 0);
+    }
+}
+
+.about__information {
+    flex: 65%;
+
+    // padding: 2rem;
+
+    p {
+        font-size: 1.2rem;
+        margin: 1rem;
+    }
+
+    ul {
+        margin: 1rem;
+    }
+
+    ul li {
+        
+        &:before {
+            content: '▸ ';
+        }
+    }
+}
+
+.list__container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}

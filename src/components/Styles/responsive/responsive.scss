@@ -1,0 +1,203 @@
+// @media screen and (max-width: 1200px) {
+//     .wrapper {
+//         max-width: 85%;
+//     }
+// }
+
+// @media screen and (max-width: 768px) {
+//     header {
+//         .navbar__logo {
+//             display: none;
+//         }
+//     }
+
+//     .project__container {
+//         border: 1px solid #149651;
+
+//         .right__half {
+//             flex: 100%;
+//         }
+//     }
+
+//     .wrapper {
+//         max-width: 80%;
+//     }
+// }
+
+// @media screen and (max-width: 586px) {
+//     header {
+//         display: none;
+//     }
+
+//     .mobile__navbar {
+//         display: block;
+//         position: fixed;
+//         top: 0;
+//         left: 1em;
+//         font-size: 2.5em;
+//         cursor: pointer;
+//     }
+
+//     .project__container {
+//         border: 1px solid yellow;
+
+//         .right__half {
+//             flex: 100%;
+//             background-image: url('../../Projects/img/projects.jpg');
+//             color: white;
+
+//             background-size: 100% 100%;
+
+//             .project__links {
+//                 ul li a {
+//                     color: white;
+//                 }
+//             }
+//         }
+
+//         .image {
+//             display: none;
+//         }
+//     }
+
+//     .wrapper {
+//         max-width: 75%;
+//     }
+// }
+
+// /* iPhone X [375, 812]*/
+// @media screen and (max-width: 375px) and (max-width: ) {
+//     .left {
+//         left: 1em;
+//     }
+
+//     .right {
+//         right: 1em;
+//     }
+
+//     .name {
+//         margin-top: 75%;
+//     }
+
+//     /* About */
+
+//     .about__content {
+//         flex-wrap: wrap-reverse;
+
+//         .profile__picture {
+//             margin-bottom: 1rem;
+//         }
+//     }
+// }
+
+/* < 345 width is not supported yet */
+@media (max-width: 345px) {
+  body {
+    display: none;
+  }
+}
+
+@media (max-width: 445px) {
+  .project__splitter {
+    .left__half {
+      display: none;
+
+      .image {
+        display: none;
+      }
+    }
+
+    .right__half {
+      .project__description {
+        display: none;
+      }
+
+      .project__languages {
+        display: none;
+      }
+    }
+  }
+
+  /* Footer */
+  .header__creator {
+    p {
+      overflow: hidden;
+    }
+  }
+}
+
+@media (max-width: 599px) {
+  /* Global */
+
+  .wrapper {
+    width: 70%;
+  }
+
+  /* Navbar */
+  header {
+    display: none;
+  }
+
+  .mobile__navbar {
+    display: flex;
+    position: fixed;
+    left: 1rem;
+    font-size: 1.5em;
+    cursor: pointer;
+  }
+
+  /* About Section */
+  .left {
+    left: 1em;
+  }
+
+  .right {
+    right: 1em;
+  }
+
+  .about__content {
+    flex-wrap: wrap-reverse;
+    // margin-bottom: 3rem;
+
+    .profile__picture {
+      margin-bottom: 1rem;
+      flex: 100%;
+    }
+  }
+
+  /* Footer */
+  .header__creator {
+    p {
+      font-size: 0.7rem;
+    }
+  }
+}
+
+@media (min-width: 600px) {
+  .wrapper {
+    width: 80%;
+  }
+
+  .about__content {
+    .profile__picture {
+      max-height: 13rem;
+      max-width: 25rem;
+    }
+  }
+
+  .project__header {
+    &:after {
+      width: 35%;
+    }
+
+    &:before {
+      width: 35%;
+    }
+  }
+}
+
+@media (min-width: 900px) {
+}
+
+@media (min-width: 1200px) {
+}

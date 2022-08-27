@@ -1,0 +1,28 @@
+$g: 0.75em;
+
+.project__title {
+  text-align: center;
+}
+
+.repo__card__container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 2.5rem;
+  column-gap: 2.5rem;
+  width: 75%;
+  margin: auto;
+}
+
+.repo__item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 15px;
+  text-align: center;
+
+  &:hover {
+    transition: all 0.3s ease-in-out;
+    background-color: rgba(15, 28, 102, 0.808);
+    transform: translateY(-2px);
+  }
+}

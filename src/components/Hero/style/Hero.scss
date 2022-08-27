@@ -1,0 +1,30 @@
+.wrapper {
+    max-width: 1000px;
+    min-width: 200px;
+    margin: 0 auto;
+    margin-bottom: 1em;
+}
+
+.hero__content {
+    text-align: center;
+
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .name {
+        font-weight: bold;
+        font-size: 3em;
+
+        margin-top: 0;
+    }
+
+    .subtitle {
+        font-size: 1.6em;
+        font-weight: bold;
+        margin-top: -1em;
+        color: #149651;
+    }
+}
